@@ -1,46 +1,46 @@
 # python-basics
 It consists some basic codes of python with comments for better understanding and practise for begginers.
 
-#question 1 welcome message
+# question 1 welcome message
 a= input("enter message:")
 print (a)
 
-#question 2 sum of three numbers
+# question 2 sum of three numbers
 a=int(input("enter a number:"))
 b=int(input("enter a number:"))
 c=int(input("enter a number:"))
 
 
-#question 3 area of rectangle
+# question 3 area of rectangle
 l=float(input("enter length:"))
 b=float(input("enter breadth:"))
 area=l*b
 print(area)
 
-#question 4 to calculate bmi
+# question 4 to calculate bmi
 weight=float(input("enter weight"))
 height=float(input("enter height"))
 BMI=(weight/(height*height))
 print("BMI is :",BMI)
 
-#question 5 cube of given number
+# question 5 cube of given number
 n=int(input("enter a number:"))
 cube=n**3
 print("cube is :",cube)
 
-#question 6   km to miles
+# question 6   km to miles
 Dist=int(input("enter distanc in km:"))
 miles=Dist*0.621371
 print("miles :",miles)
 
-#question 7 tonne to quintal and kg
+# question 7 tonne to quintal and kg
 tonne=float(input("enter tonne:"))
 quintal=tonne*10
 kilogram=tonne*1000
 print("Quintal is:",quintal)
 print("Kilogram is:",kilogram)
 
-#question 8 swap btw two numbers
+# question 8 swap btw two numbers
 a=int(input("enter a number:"))
 b=int(input("enter a number:"))
 a,b=b,a
